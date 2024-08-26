@@ -1,0 +1,50 @@
+environment setup
+step 1 download postman
+signup mongodb online
+signup the third thing mention in environment setup
+
+Connect mongodb
+
+Connect mongod as the step mention in video create database cluster so on
+make .env file IN SERVER DIRECTORY
+
+Create model
+in create model when creating user model where in start name: admin email: admin@example.com so on are written change it with the actual 
+admin which was created while creating database on mongodb
+
+Create routes and insert database 
+in it postman request is send and in Mongodb in the collection data is shown 
+watch the video slowly for this part
+
+NOW GO TO CLIENT FRONTEND DIRECTODRY USING cd "client frontend"
+rm -rf node_modules
+Remove-Item -Path node_modules -Recurse -Force
+npm install
+npm run build
+npm start
+
+Downlaod redux tools
+
+POSTMAN ENVIR VARIABLE
+
+https://github.com/mars/create-react-app-buildpack
+
+
+ERROR RESOLVE
+npm cache clean --force
+npm update
+rm -rf node_modules
+Remove-Item -Path node_modules -Recurse -Force
+npm install
+npm audit fix --force
+npm test
+npm init
+npm run build
+npm start
+
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eafaf1;
+    height: 100vh;
+}
+
+.poster {
+    width: 24in;
+    height: 36in;
+    background-color: white;
+    padding: 1in;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 10px solid #2ecc71;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.header {
+    margin-bottom: 0.5in;
+}
+
+.header h1 {
+    font-size: 2in;
+    margin: 0;
+    color: #27ae60;
+}
+
+.header h2 {
+    font-size: 1.5in;
+    margin: 0;
+    color: #16a085;
+}
+
+.section {
+    margin-bottom: 0.5in;
+}
+
+.section.description p,
+.section.audience p,
+.section.contact p {
+    font-size: 1in;
+    color: #34495e;
+}
+
+.section.features h3,
+.section.impact h3,
+.section.contact h3,
+.section.call-to-action h3 {
+    font-size: 1.2in;
+    color: #2c3e50;
+    margin-bottom: 0.25in;
+}
+
+.section.features ul,
+.section.impact ul {
+    list-style: disc inside;
+    padding: 0;
+    font-size: 1in;
+    color: #34495e;
+}
+
+.section.features li,
+.section.impact li {
+    margin-bottom: 0.25in;
+}
+
+.section.call-to-action h3 {
+    font-size: 1.5in;
+    color: #e74c3c;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+}
